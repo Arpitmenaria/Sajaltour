@@ -1,0 +1,69 @@
+.contact-container {
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fdfdfd;
+    color: #333;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .info-block {
+    background-color: #e0f2f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .info-block h3 {
+    margin-bottom: 10px;
+    color: #00796b;
+  }
+  
+  .info-block p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .info-block a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .info-block a:hover {
+    text-decoration: underline;
+  }
+  
+  .map-section {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Mobile View */
+  @media screen and (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info-block {
+      width: 90%;
+    }
+  }
+  
